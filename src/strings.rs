@@ -1,6 +1,8 @@
 pub fn run() {
     let mut hello = String::from("Hello ");
 
+    // '' = char
+    // "" = &str
     hello.push('W');
     hello.push_str("orld!");
 

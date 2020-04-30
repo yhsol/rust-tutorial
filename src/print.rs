@@ -17,6 +17,7 @@ pub fn run() {
 
     println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
 
+    // using Debug trait (std::fmd::Debug)
     println!("{:?}", (12, true, "hello"));
 
     println!("5 + 5 = {}", 5 + 5);
