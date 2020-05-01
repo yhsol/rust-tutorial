@@ -27,8 +27,10 @@ pub fn run() {
 
     // Loop through vector values
     for i in numbers.iter() {
+        // *i *= 2;  // it doesn't work here
         println!("Number: {}", i);
     }
+    println!("Numbers Vec: {:?}", numbers);
 
     // Loop & mutate values
     for i in numbers.iter_mut() {

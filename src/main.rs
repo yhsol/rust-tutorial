@@ -19,5 +19,5 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // loops::run();
-    functions::run();
+    // functions::run();
 }
