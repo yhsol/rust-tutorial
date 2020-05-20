@@ -12,6 +12,7 @@
 // mod structs;
 // mod enums;
 mod cli;
+mod trait_test;
 
 fn main() {
     // print::run();
@@ -27,5 +28,6 @@ fn main() {
     // pointer_ref::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    trait_test::run();
 }
